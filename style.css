@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+img{
+  border-radius: 30px;
+}
+
+.r-img, .o-img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.rain-parent{
+  position: relative;
+}
+
+
+.rain-overlay{
+  position: absolute;
+  top: 40%;
+  width: 200px;
+  margin: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  opacity: 70%;
+}
